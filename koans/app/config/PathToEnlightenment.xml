@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <packages>
-    <!--<package pkg="beginner" name="Novice">-->
+    <package pkg="beginner" name="Novice">
         <!--<suite class="AboutKoans">-->
         <!--<koan name="findAboutKoansFile" displayIncompleteKoanException="false" />-->
         <!--<koan name="definitionOfKoanCompletion" displayIncompleteKoanException="false" />-->
@@ -8,7 +8,7 @@
         <!--<suite class="AboutAssertions"/>-->
         <!--<suite class="AboutEquality"/>-->
         <!--<suite class="AboutStrings"/>-->
-        <!--<suite class="AboutArithmeticOperators"/>-->
+        <suite class="AboutArithmeticOperators"/>
         <!--<suite class="AboutConditionals"/>-->
         <!--<suite class="AboutLoops" />-->
         <!--<suite class="AboutPrimitives" />-->
@@ -22,11 +22,11 @@
         <!--<suite class="AboutBitwiseOperators"/>-->
         <!--<suite class="AboutArrays"/>-->
         <!--<suite class="AboutVarArgs"/>-->
-    <!--</package>-->
-    <package pkg="intermediate" name="Intermediate">
+    </package>
+    <!--<package pkg="intermediate" name="Intermediate">-->
         <!--<suite class="AboutAutoboxing"/>-->
         <!--<suite class="AboutCollections"/>-->
-        <suite class="AboutComparison"/>
+        <!--<suite class="AboutComparison"/>-->
         <!--<suite class="AboutDates"/>-->
         <!--<suite class="AboutEquality"/>-->
         <!--<suite class="AboutFileIO"/>-->
@@ -34,7 +34,7 @@
         <!--<suite class="AboutLocale"/>-->
         <!--<suite class="AboutRegularExpressions"/>-->
         <!--<suite class="AboutSerialization"/>-->
-    </package>
+    <!--</package>-->
     <!--<package pkg="advanced" name="Advanced">-->
         <!--<suite class="AboutMocks"/>-->
     <!--</package>-->
