@@ -8,7 +8,7 @@
         <!--<suite class="AboutAssertions"/>-->
         <!--<suite class="AboutEquality"/>-->
         <!--<suite class="AboutStrings"/>-->
-        <suite class="AboutArithmeticOperators"/>
+        <!--<suite class="AboutArithmeticOperators"/>-->
         <!--<suite class="AboutConditionals"/>-->
         <!--<suite class="AboutLoops" />-->
         <!--<suite class="AboutPrimitives" />-->
@@ -20,7 +20,7 @@
         <!--<suite class="AboutExceptions"/>-->
         <!--<suite class="AboutMethodPreference"/>-->
         <!--<suite class="AboutBitwiseOperators"/>-->
-        <!--<suite class="AboutArrays"/>-->
+        <suite class="AboutArrays"/>
         <!--<suite class="AboutVarArgs"/>-->
     </package>
     <!--<package pkg="intermediate" name="Intermediate">-->
