@@ -9,7 +9,7 @@
         <!--<suite class="AboutEquality"/>-->
         <!--<suite class="AboutStrings"/>-->
         <!--<suite class="AboutArithmeticOperators"/>-->
-        <suite class="AboutConditionals"/>
+        <!--<suite class="AboutConditionals"/>-->
         <!--<suite class="AboutLoops" />-->
         <!--<suite class="AboutPrimitives" />-->
         <!--<suite class="AboutObjects"/>-->
@@ -19,7 +19,7 @@
         <!--<suite class="AboutEnums"/>-->
         <!--<suite class="AboutExceptions"/>-->
         <!--<suite class="AboutMethodPreference"/>-->
-        <!--<suite class="AboutBitwiseOperators"/>-->
+        <suite class="AboutBitwiseOperators"/>
         <!--<suite class="AboutArrays"/>-->
         <!--<suite class="AboutVarArgs"/>-->
     </package>
