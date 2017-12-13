@@ -42,13 +42,14 @@ public class AboutBitwiseOperators {
     @Koan
     public void aboutBitShiftingRightShift() {
         int rightShift = 8; // binarny 1000
-        rightShift = rightShift >> 1; // binarny 100 czyli 4
+        rightShift = rightShift >> 1; // binarny 100 which is 4
         assertEquals(rightShift, 4);
     }
 
     @Koan
     public void aboutBitShiftingLeftShift() {
-        int leftShift = 0x80000000; // Is this number positive or negative?
+        int leftShift = 0x80000000; // Is this number positive or negative? NEGATIVE because it equals 2 147 483 648
+                                    // which is > than max value of int (2 147 483 647)
         leftShift = leftShift << 1;
         assertEquals(leftShift, __);
     }
