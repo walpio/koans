@@ -15,11 +15,11 @@
         <!--<suite class="AboutObjects"/>-->
         <!--<suite class="AboutInheritance"/>-->
         <!--<suite class="AboutCasting"/>-->
-        <!--<suite class="AboutConstructors"/>-->
+        <suite class="AboutConstructors"/>
         <!--<suite class="AboutEnums"/>-->
         <!--<suite class="AboutExceptions"/>-->
         <!--<suite class="AboutMethodPreference"/>-->
-        <suite class="AboutBitwiseOperators"/>
+        <!--<suite class="AboutBitwiseOperators"/>-->
         <!--<suite class="AboutArrays"/>-->
         <!--<suite class="AboutVarArgs"/>-->
     </package>
