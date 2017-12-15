@@ -6,7 +6,7 @@
         <!--<koan name="definitionOfKoanCompletion" displayIncompleteKoanException="false" />-->
         <!--</suite>-->
         <!--<suite class="AboutAssertions"/>-->
-        <!--<suite class="AboutEquality"/>-->
+        <suite class="AboutEquality"/>
         <!--<suite class="AboutStrings"/>-->
         <!--<suite class="AboutArithmeticOperators"/>-->
         <!--<suite class="AboutConditionals"/>-->
