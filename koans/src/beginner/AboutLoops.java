@@ -82,7 +82,7 @@ public class AboutLoops {
         for (int j : is) {
             s += j + " ";
         }
-        assertEquals(s, __);
+        assertEquals(s, "1 2 3 4 ");
     }
 
     @Koan
@@ -91,7 +91,7 @@ public class AboutLoops {
         while (result < 3) {
             result++;
         }
-        assertEquals(result, __);
+        assertEquals(result, 3);
     }
 
     @Koan
@@ -100,7 +100,7 @@ public class AboutLoops {
         do {
             result++;
         } while (false);
-        assertEquals(result, __);
+        assertEquals(result, 1);
     }
 
     @Koan
@@ -113,7 +113,7 @@ public class AboutLoops {
             }
             count++;
         }
-        assertEquals(count, __);
+        assertEquals(count, 1);
     }
 
     @Koan
@@ -127,16 +127,16 @@ public class AboutLoops {
                 count++;
             }
         }
-        assertEquals(count, __);
+        assertEquals(count, 2);
     }
 
     @Koan
     public void forLoopContinueLabel() {
         int count = 0;
         outerLabel:
-        for (int i = 0; i < 6; i++) {
-            for (int j = 0; j < 6; j++) {
-                count++;
+        for (int i = 0; i < 6; i++) { //5
+            for (int j = 0; j < 6; j++) { //0
+                count++; //8
                 if (count > 2) {
                     continue outerLabel;
                 }
@@ -145,16 +145,16 @@ public class AboutLoops {
         }
         // What does continue with a label mean?
         // What gets executed? Where does the program flow continue?
-        assertEquals(count, __);
+        assertEquals(count, 8);
     }
 
     @Koan
     public void forLoopBreakLabel() {
         int count = 0;
         outerLabel:
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                count++;
+        for (int i = 0; i < 4; i++) { //0
+            for (int j = 0; j < 4; j++) { //2
+                count++; //3
                 if (count > 2) {
                     break outerLabel;
                 }
@@ -163,6 +163,6 @@ public class AboutLoops {
         }
         // What does break with a label mean?
         // What gets executed? Where does the program flow continue?
-        assertEquals(count, __);
+        assertEquals(count, 3);
     }
 }
